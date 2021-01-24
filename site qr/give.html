@@ -7,17 +7,30 @@
     <title>Qr-site</title>
 </head>
 <body>
-    <div class="container">
-        <ul class="menu"> 
-            <li> 
-                <a class="pol-btn" href="index.html">Назад</a>
-            </li>
-            <li> 
-                <a class="pol-btn" href="Skan.html">Проверить билет</a>
-            </li>
-        </ul>
+    <div class="container2">
+        
+             
+        <a class="nazad" href="index.html">Назад</a>
+        <button class="btn" id="222" href="" onclick="myFunction()" >Получить</button>
+            
+        
 
     </div>
+    <script>
+
+        function myFunction() {
+            var change = document.getElementById("222");
+            if (change.innerHTML == "Получить")
+            {
+                change.innerHTML = "Проверить";
+            }
+            if (change.innerHTML == "")
+            {
+                
+            }
+        }
+
+    </script>
     
 </body>
 </html>

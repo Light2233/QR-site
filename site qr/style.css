@@ -24,6 +24,7 @@ body{
 .menu li {
     text-align: justify;
     margin: 100px;
+    left: 200px;
     
 }
 .pol-btn{
@@ -36,5 +37,50 @@ body{
     padding: 20px 20px;
     background-color: rgb(209, 207, 207);
     box-shadow: 0 0 10px rgba(0,0,0,1);
+    display: inline-block;
     
 }
+.nazad{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: justify;
+    border: 3px solid black;
+    padding: 20px 20px;
+    background-color: rgb(209, 207, 207);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    top: 600px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 92%;
+    top: 92%;
+    
+}
+.container2{ 
+    height: 936px; 
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: justify;
+    border: 3px solid black;
+    padding: 20px 20px;
+    background-color: rgb(209, 207, 207);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    top: 600px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 37%;
+    top: 80%;
+    display: inline-block;
+    
+}
+.btn:focus{
+    outline: none;
+}
+
