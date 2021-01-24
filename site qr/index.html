@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="java.js">
     <title>Qr-site</title>
 </head>
 <body>
+    <div id="qrcode"></div>
+<script type="text/javascript">
+new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+</script>
 
     <div class="container">
         <ul class="menu"> 
