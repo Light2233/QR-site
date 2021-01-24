@@ -16,3 +16,4 @@ qrDiv.innerHTML += text.join('')+ '<br>';
 qrDiv.innerHTML+= String.fromCharCode(...text);
 
 
+
