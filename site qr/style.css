@@ -55,7 +55,7 @@ body{
     margin-bottom: 30px;
     position: relative;
     left: 92%;
-    top: 92%;
+    top: 90%;
     
 }
 .container2{ 
@@ -75,12 +75,15 @@ body{
     margin-right: 40px;
     margin-bottom: 30px;
     position: relative;
-    left: 37%;
+    left: 35%;
     top: 80%;
     display: inline-block;
     
 }
 .btn:focus{
     outline: none;
+}
+.qr{
+    
 }
 

@@ -12,7 +12,7 @@
              
         <a class="nazad" href="index.html">Назад</a>
         <button class="btn" id="222" href="" onclick="myFunction()" >Получить</button>
-            
+        <p class="qr" id="333"></p>   
         
 
     </div>
@@ -24,13 +24,23 @@
             {
                 change.innerHTML = "Проверить";
             }
-            if (change.innerHTML == "")
+
+            
+          
+                   
+        }
+        function myFunction() {
+        let number = Math.ceil(Math.random(20) * 100000000000);
+            
+            var change = document.getElementById("333");
+            if (change.innerText == '')
             {
-                
+                change.innerText = number;
             }
         }
 
     </script>
+
     
 </body>
 </html>
