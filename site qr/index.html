@@ -7,6 +7,7 @@
     <title>Qr-site</title>
 </head>
 <body>
+
     <div class="container">
         <ul class="menu"> 
             <li> 
@@ -16,45 +17,23 @@
                 <a class="pol-btn" href="Skan.html">Проверить билет</a>
             </li>
         </ul>
+        <input type="text" id="qr-data">
+    </body>
+
+        <script>
+            var  qrdata = document.getElementById('qr-data')
+        </script>
+        
+        
+       
         
         
     
            
     
-        <!-- Подключаем библиотеку -->
-        <script src="http://cosmic.mearie.org/2011/01/qrjs/qr.js"></script>
-    
-        <script>
-    
-            /**
-             * Простая функция для получения DOM-элемента
-             *
-             * @param selector {string}
-             *
-             * @return HTMLElement
-             * */
-            const el = (selector) => document.querySelector(selector);
-    
-    
-            // при нажатии на кнопку
-            el('#generateQRCode').addEventListener('click', function() {
-               
-                // получаем блок куда будет выводиться QR-код
-                let qrCodeOutput = el('#qrCodeOutput');
-    
-                // получаем содержимое текстового поля
-                let text = el('#qrCodeText').value;
-    
-                // очищаем блок с QR-кодом
-                qrCodeOutput.innerHTML = "";
-    
-                // и помещаем в него сгенерированный библиотекой QR-код
-                qrCodeOutput.append(QRCode.generateHTML(text, {}))
-            });
-    
-        </script>
+       
 
     </div>
     
-</body>
+
 </html>
