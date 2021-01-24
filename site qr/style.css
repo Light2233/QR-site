@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%; 
+    height: 100%;
+    background: rgb(47,40,167);
+    background: linear-gradient(90deg, rgba(47,40,167,1) 0%, rgba(71,45,121,1) 29%, rgba(140,52,109,1) 85%);   
+}
+.container{
+    display: flex;
+    min-width: 100%; 
+    min-height: 100%; 
+    justify-content: center;
+    height: 937px;
+    align-items: center;  
+}
+.menu{
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+}
+.menu li {
+    text-align: justify;
+    margin: 100px;
+    
+}
+.pol-btn{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: justify;
+    border: 3px solid black;
+    padding: 20px 20px;
+    background-color: rgb(209, 207, 207);
+    box-shadow: 20px black ;
+    
+}
